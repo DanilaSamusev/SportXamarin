@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinTestApp.Register.DetailedInformation">
+    <ContentPage.Content>
+        <FlexLayout Direction="Column" Wrap="Wrap" JustifyContent="SpaceAround">
+            <Label Text="Вес"/>
+            <Entry/>
+            <Label Text="Рост"/>
+            <Entry/>
+            <Label Text="Активность"/>
+            <Entry/>
+            <Label Text="Ежедневная норма каллорий"/>
+            <Label Text="Ежедневная норма воды"/>
+            <Button Text="Завершить регистрацию" Clicked="FinishRegistrationButton_Clicked"/>
+        </FlexLayout>
+    </ContentPage.Content>
+</ContentPage>
